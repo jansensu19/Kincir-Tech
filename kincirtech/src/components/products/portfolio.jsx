@@ -1,6 +1,6 @@
-import ilios from "../../assets/img/ilios.png";
+import indexing from "../../assets/img/indexing.png";
 import homeandliving from "../../assets/img/homeandliving.png";
-import hippo from "../../assets/img/hippo.png";
+import hyperstone from "../../assets/img/hyperstone.png";
 
 export default function portfolio() {
   return (
@@ -16,7 +16,7 @@ export default function portfolio() {
         <div class="space-y-8 md:grid md:grid-cols-3 lg:grid-cols-3 md:gap-12 md:space-y-0">
           <div class="border-4 border-gray-300 rounded-lg hover:border-yellow-300 px-4 py-4">
             <div class="flex mx-auto justify-center items-center mb-6  rounded-full bg-primary-100">
-              <img class="rounded-lg" src={ilios} alt="" />
+              <img class="rounded-lg" src={indexing} alt="" />
             </div>
             <p class="text-gray-400 sm:text-medium">Mobile apps</p>
             <h3 class="mb-2 text-xl font-bold text-yellow-300">
@@ -45,7 +45,7 @@ export default function portfolio() {
 
           <div class="border-4 border-gray-300 rounded-lg hover:border-yellow-300 px-4 py-4">
             <div class="flex mx-auto justify-center items-center mb-6  rounded-full bg-primary-100">
-              <img class="rounded-lg" src={hippo} alt="" />
+              <img class="rounded-lg" src={hyperstone} alt="" />
             </div>
             <p class="text-gray-400 sm:text-medium">Website development</p>
             <h3 class="mb-2 text-xl font-bold text-yellow-300">HyperStone</h3>
